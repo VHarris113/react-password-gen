@@ -1,5 +1,5 @@
 import React from 'react';
-import PasswordBody from "./components/PasswordBody";
+import PasswordBody from "./components/passbody/PasswordBody";
 import './App.css';
 
 function App() {

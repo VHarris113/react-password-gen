@@ -11,9 +11,13 @@ function PasswordBody() {
             <div className="cardBody">
                 <textarea readOnly id="password" placeholder="Your Secure Password" aria-label="Generate Password"></textarea>
             </div>
-            <div class="cardFooter">
+            {/* <div class="cardFooter">
                 <button id="generate" className="btn">Generate Password</button>
-            </div>
+                {/* <input type="checkbox" >Uppercase Characters</input>
+                <input type="checkbox">Lowercase Characters</input>
+                <input type="checkbox">Symbols/Special Characters</input>
+                <input type="checkbox">Numbers</input> */
+            /* </div> */}
         </div>
     );
 }

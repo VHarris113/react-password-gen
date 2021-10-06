@@ -1,15 +1,16 @@
+
+h1, h2{
+    color: #0A014F;
+}
+
 .passwordBox {
-    display: block;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    bottom: auto;
-    width: 100%;
     background-color: #F6CACA;
+    position: absolute;
+    margin: 215px;
+    width: 100%;
     border-radius: 10px;
     border-width: 5px;
-    box-shadow: #0A014F;
-    color: hsl(206, 17%, 28%);
+    box-shadow: 10px 5px 5px #0A014F;
     font-size: 18px;
     max-width: 800px;
     padding: 30px 40px;
@@ -25,4 +26,8 @@
 
 .cardFooter {
 
+}
+
+#password {
+    box-sizing: content-box;
 }
